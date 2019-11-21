@@ -121,7 +121,7 @@ sed -i 's#/usr/bin/gcc-4.9#/usr/bin/gcc#g' '/root/tcp.sh'
 chmod +x tcp.sh && ./tcp.sh
 ~~~
 
-### [推荐] 脚本部署
+### [推荐] 脚本部署 （已修改）
 
 **脚本说明：**
 
@@ -136,7 +136,7 @@ chmod +x tcp.sh && ./tcp.sh
 
 ~~~
 mkdir v2ray-agent  &&  cd v2ray-agent
-curl https://raw.githubusercontent.com/rico93/shadowsocks-munager/v2ray_api/install.sh -o install.sh && chmod +x install.sh && bash install.sh
+curl https://raw.githubusercontent.com/skytt/free-v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 ~~~
 
 ### Docker + docker-compose 部署
@@ -292,7 +292,7 @@ docker run -d --network=host --name v2ray_v3_api -e node_id=1 -e key=ixidnf -e s
 ~~~
 
 
-### 普通安装
+### 普通安装 （未修改）
 
 **安装 v2ray：**
 
